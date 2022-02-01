@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -40,79 +39,123 @@
         <tbody id="planner-table">
           <tr>
             <th class="time-tbl" scope="row">8:00 AM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime8"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime8">
+              <textarea id="projectTime8" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project8btn" class="btn saveBtn" type="button" onClick="button(8)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">9:00 AM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime9"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime9">
+              <textarea id="projectTime9" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project9btn" class="btn saveBtn" type="button" onClick="button(9)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">10:00 AM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime10"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime10">
+              <textarea id="projectTime10" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project10btn" class="btn saveBtn" type="button" onClick="button(10)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">11:00 AM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime11"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime11">
+              <textarea id="projectTime11" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project11btn" class="btn saveBtn" type="button" onClick="button(11)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">12:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime12"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime12">
+              <textarea id="projectTime12" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project12btn" class="btn saveBtn" type="button" onClick="button(12)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">1:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime13"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime13">
+              <textarea id="projectTime13" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project13btn" class="btn saveBtn" type="button" onClick="button(13)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">2:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime14"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime14">
+              <textarea id="projectTime14" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project14btn" class="btn saveBtn" type="button" onClick="button(14)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">3:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime15"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime15">
+              <textarea id="projectTime15" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project15btn" class="btn saveBtn" type="button" onClick="button(15)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">4:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime16"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime16">
+              <textarea id="projectTime16" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project16btn" class="btn saveBtn" type="button" onClick="button(16)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">5:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime17"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime17">
+              <textarea id="projectTime17" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project17btn" class="btn saveBtn" type="button" onClick="button(17)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
           <tr>
             <th class="time-tbl" scope="row">6:00 PM</th>
-            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime18"></td>
+            <td class="plan-event" data-toggle="modal" data-target="#plannerModal" id="projectTime18">
+              <textarea id="projectTime18" value="" type="text" cols="100" rows="2" class="form-control description textarea"></textarea>
+            </td>
             <td class="plan-save">
-              <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              <button id="project18btn" class="btn saveBtn" type="button" onClick="button(18)">
+                <img class="save-img" src="./assets/images/diskette.png" alt="Save icons created by Yogi Aprelliyanto - Flaticon">
+              </button>
             </td>
           </tr>
         </tbody>
