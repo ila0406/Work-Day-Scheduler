@@ -21,6 +21,7 @@ var now = new Date().getHours();
   // Save icons within the App
   function button(arg) {
     localStorage.setItem(arg, $(`#projectTime${arg}`).val());
+    console.log('Click');
   }
   
   // A call to the function
