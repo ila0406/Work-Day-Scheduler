@@ -7,7 +7,8 @@ As an employee with a busy schedule, I want to add important events to a daily p
 
 ## Accessibility
 Lighthouse report on accesibility
-![Lighthouse](./assets/images/lighthouse.png)
+
+<img src="./assets/images/lighthouse.png" width="500">
 
 ## Mock-Up 
 The following images shows the mokup of the web application's appearance and functionality. 
@@ -17,14 +18,16 @@ The following images shows the mokup of the web application's appearance and fun
 
 ### Current Day
 When the planner is opened, the current day is displayed at the top of the calendar.
-![](./assets/images/currentDay.png)
+
+<img src="./assets/images/currentDay.png" width="500">
 
 ### Color coded
 When viewing the timeblocks for the day, the colors change based on past, present, future
-![](./assets/images/9am.png)
-![](./assets/images/10am.png)
-![](./assets/images/11am.png)
+
+<img src="./assets/images/9am.png" width="500">
+<img src="./assets/images/10am.png" width="500">
 
 ### Save the time block
 When the save button is clicked, the event is saved in local storage
-![](./assets/images/save.png)
+
+<img src="./assets/images/save.png" width="500">
