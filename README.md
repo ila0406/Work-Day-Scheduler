@@ -1,5 +1,5 @@
-# wk5-Homework-DH
-Homework repo for wk5 - Third Party APIs: Work Day Scheduler
+# Workday Scheduler
+Third Party APIs: Work Day Scheduler
 https://ila0406.github.io/Work-Day-Scheduler/
 
 ## User Story
