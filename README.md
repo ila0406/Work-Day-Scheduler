@@ -1,9 +1,11 @@
-# Workday Scheduler
-Third Party APIs: Work Day Scheduler
+# Work Day Scheduler
 https://ila0406.github.io/Work-Day-Scheduler/
 
 ## User Story
 As an employee with a busy schedule, I want to add important events to a daily planner so that I can manage my time effectively.
+
+## Technologies Used
+CSS, HTML, Javascript, moment.js, jQuery
 
 ## Accessibility
 Lighthouse report on accesibility
