@@ -36,3 +36,6 @@ When viewing the timeblocks for the day, the colors change based on past, presen
 When the save button is clicked, the event is saved in local storage
 
 <img src="./assets/images/save.png" width="500">
+
+## Questions
+email: ila0406@gmail.com
